@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: cadetblue;
+    }
+
+    .container {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        border: 4px solid black;
+        box-shadow: 5px 5px 10px blue;
+
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten,
+    .eleven,
+    .twelve {
+        position: relative;
+        font-size: 60px;
+
+    }
+
+    .one {
+        top: 23px;
+        left: 110px;
+    }
+
+    .two {
+        top: 30px;
+        left: 193px;
+    }
+
+    .three {
+        top: 75px;
+        left: 227px;
+    }
+
+    .four {
+        top: 116px;
+        left: 194px;
+    }
+
+    .five {
+        top: 133px;
+        left: 114px;
+    }
+
+    .six {
+        top: 90px;
+        left: 0px;
+    }
+
+    .seven {
+        top: -5px;
+        right: 112px;
+    }
+
+    .eight {
+        top: -156px;
+        right: 196px;
+    }
+
+    .nine {
+        top: -340px;
+        right: 226px;
+    }
+
+    .ten {
+        top: -513px;
+        right: 188px;
+    }
+
+    .eleven {
+        top: -666px;
+        right: 106px;
+    }
+
+    .twelve {
+        top: -761px;
+        left: 3px;
+    }
+
+    .sec {
+        /* background: black; */
+        height: 3px;
+        width: 500px;
+        top: 256px;
+        position: absolute;
+        left: calc(50%-250px);
+        transform: rotate(0deg)
+    }
+
+    .part1 {
+        width: 200px;
+        height: 3px;
+        display: inline-block;
+        background-color: brown;
+        /* position: relative; */
+        position: absolute;
+    }
+
+    .min {
+        /* background: black; */
+        height: 7px;
+        width: 500px;
+        top: 256px;
+        position: absolute;
+        left: calc(50%-250px);
+        transform: rotate(0deg)
+    }
+
+    .min-part1 {
+        width: 180px;
+        height: 7px;
+        display: inline-block;
+        background-color: rgb(39, 36, 233);
+        /* position: relative; */
+        position: absolute;
+    }
+
+    .hour {
+        /* background: black; */
+        height: 7px;
+        width: 500px;
+        top: 256px;
+        position: absolute;
+        left: calc(50%-250px);
+        transform: rotate(0deg);
+    }
+
+    .hour-part1 {
+        width: 150px;
+        height: 10px;
+        display: inline-block;
+        background-color: rgb(216, 60, 203);
+        /* position: relative; */
+        position: absolute;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+        <div class="seven">7</div>
+        <div class="eight">8</div>
+        <div class="nine">9</div>
+        <div class="ten">10</div>
+        <div class="eleven">11</div>
+        <div class="twelve">12</div>
+
+    </div>
+    <div class="sec">
+        <span class="part1"></span>
+
+    </div>
+    <div class="min">
+        <span class=" min-part1"></span>
+
+    </div>
+    </div>
+    <div class="hour">
+        <span class=" hour-part1"></span>
+
+    </div>
+
+
+</body>
+<script src="watch.js"></script>
+
+</html>
